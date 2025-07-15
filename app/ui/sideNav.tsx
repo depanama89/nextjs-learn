@@ -4,7 +4,7 @@ import NavLinks from "./dashboard/nav-link";
 
 export default function Sidenav(){
     return(
-        <aside className="flex hidden md:flex md:flex-col">
+        <aside className=" hidden md:flex md:flex-col">
             
          <NavLinks/>
         </aside>
