@@ -11,7 +11,7 @@ const links = [
   {
     icon: IoHomeOutline,
     name: "Home",
-    href: "/",
+    href: "/dashboard",
   },
   {
     icon: IoDocumentsOutline,
@@ -27,7 +27,7 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
   return (
-    <div className="flex flex-col gap-3 mt-6">
+    <div className="flex flex-row md:flex-col mt-1 justify-between w-full md:gap-3 mt:mt-6">
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
